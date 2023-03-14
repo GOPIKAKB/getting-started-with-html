@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Student form:</legend>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="" fage>Age:</label>
+            <input type="text" id="fage" name="fage"><br><br>
+
+            <label for="fgender">Gender :</label> <br>
+            <input type="radio" id="ffemale" name="gender" value="Female">
+            <label for="ffemale">Female</label><br>
+//need to give radio button name same. otherwise dont work properly
+            <input type="radio" id="fmale" name="gender" value="male">
+            <label for="fmale">Male</label><br><br>
+
+            <label>Intrested in :</label><br>
+            <input type="checkbox" id="dance" name="dance">
+            <label for="dance">Dance</label><br>
+            <input type="checkbox" id="music" name="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="instru" name="instru">
+            <label for="instru">Instrument</label><br><br>
+
+            <label for="school">Choose your school:</label>
+            <select name="school" id="school">
+                <option value="ABC School">ABC School</option>
+                <option value="XYZ School">XYZ School</option>
+                <option value="PQR School">PQR School</option>
+                <option value="MNO School">MNO School</option>
+
+            </select><br><br>
+
+            <label for="review">Review</label><br>
+            <textarea id="review" name="review" rows="5" cols="30"></textarea><br>
+            <button style="margin-top: 2%;">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
