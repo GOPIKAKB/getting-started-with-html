@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>table</title>
+    <style>
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: yellow;
+            padding: 5px;
+        }
+
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+            height: 500px;
+            border-spacing: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 100%; height: 100%;">
+        <table>
+            <caption style="caption-side: bottom;">Dayly Schedule</caption>
+            <tr>
+                <th rowspan="2">Task</th>
+                <th colspan="7">Day of the week</th>
+            </tr>
+            <tr>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td>Sat</td>
+                <td>Sun</td>
+            </tr>
+            <tr>
+                <td>College</td>
+                <td>Java</td>
+                <td>Web Design</td>
+                <td>C lang</td>
+                <td>Python</td>
+                <td>Practical</td>
+                <td rowspan="2" colspan="2" style="background-color: red;">OFF</td>
+            </tr>
+            <tr>
+                <td>Work</td>
+                <td colspan="5">Subject preparation and project work </td>
+
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
