@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        caption {
+            color: #ff0000;
+            background-color: yellow;
+        }
+
+        td,
+        tr {
+            background-color: aqua;
+            border: 3px solid white;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 400px;
+            height: 400px;
+        }
+        button{
+            width:100px
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Registration Form</caption>
+        <form>
+            <tr>
+                <td>
+                    <label for="name"> Enter Name </label>
+                </td>
+                <td><input type="text" id="name" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Password">Enter Password</label>
+                </td>
+                <td>
+                    <input type="text" id="password" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Enter Address</label>
+                </td>
+                <td>
+                    <textarea id="adress" name="address" rows="4" cols="21"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="game">Select Game</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="hockey" name="hockey">
+                    <label for="hockey">Hockey</label><br>
+
+                    <input type="checkbox" id="football" name="Football">
+                    <label for="football">Football</label><br>
+
+                    <input type="checkbox" id="badminton" name="badminton">
+                    <label for="badminton">Badminton</label><br>
+
+                    <input type="checkbox" id="cricket" name="cricket">
+                    <label for="cricket">Cricket</label><br>
+
+                    <input type="checkbox" id="volleyball" name="volleyball">
+                    <label for="volleyball">Volleyball</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="game">Select Your Age</label>
+                </td>
+                <td>
+                    <select name="game" id="game">
+                        <option value="Hockey">Select</option>
+                        <option value="football">15</option>
+                        <option value="Badminton">13</option>
+                        <option value="Cricket">12</option>
+                        <option value="volleyball">11</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Select Photo</label>
+                </td>
+                <td>
+                    <input type="file" id="file" name="file">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button>Click Me</button>
+                    <button>Reset</button>
+                    <button>Submit Form</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
