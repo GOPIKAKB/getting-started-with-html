@@ -1,0 +1,16 @@
+p{
+    background: url("para-bg-img.jpg") no-repeat fixed;
+    color: white;
+    background-size: 100% 100%;
+    /* width:80%; */
+    text-align: justify;
+    font-size: 25px;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    /* border-top: 3px red dashed;
+    border-right: 3px green double;
+    border-bottom: 3px cyan dotted;
+    border-left: 3px orange solid; */
+    border-style: dashed double dotted solid ;
+    border-color: red green cyan orange;
+}
