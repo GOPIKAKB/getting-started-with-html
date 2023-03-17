@@ -1,0 +1,30 @@
+a {
+    color: white;
+    padding-top: 11px;
+    font-size: 25px;
+}
+li {
+    display: inline;
+    color: white;
+    padding-left: 30px;
+  }
+  ul{
+    float: right;
+     width:300px; 
+  }
+  .image{
+    width: 100%; height: 600px; background-color: aqua;
+    background: url("photography.jpg");
+    color:white;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: right; */
+  }
+  button{
+    /* background-color: black; */
+    color: white;
+    border: 1px solid white;
+            background-color: transparent;
+  }
+ 
