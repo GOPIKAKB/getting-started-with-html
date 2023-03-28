@@ -1,0 +1,37 @@
+.banner {
+    background: url(https://cdn-ghnlj.nitrocdn.com/JBtnaqNLUFzDSKzWbkatZJZXEwtGDlyg/assets/images/optimized/rev-8dda17e/wp-content/themes/Netstager_Creative_Suite-3.0/images/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 85px;
+    font-weight: 600;
+}
+
+.description{
+    font-family: "Poppins",sans-serif;
+    font-weight: 500px;
+}
+
+.gradient-button {
+  background: linear-gradient(to right, #FFD54F, #e7510b);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.popover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+  }
+  
+  .career-tab:hover .popover {
+    display: block;
+  }
+  .career-tab {
+    position: relative;
+  }
